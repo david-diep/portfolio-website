@@ -5,17 +5,101 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>David Diep</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">David Diep</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#apps">Apps</a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link" href="#contact">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="full-screen slate-bg d-flex justify-content-center align-items-center" id="home">
+    <div class="typewriter" id="write">
+      <h1 class="white-cursor" id="first">Hi! My name is David.</h1>
+    </div>
+  </div>
+
+  <div id="about" class="full-screen grey-bg">
+    <h1 class="ml-5 title-text">About Me</h1>
+    <div class="container smoke-bg">
+      <div class="row">
+        <img class="p-3 self-image" src="images/david-diep.png">
+        <div class="d-flex flex-column justify-content-end pl-3">
+          <p><span class="font-weight-bold">Name: </span> David Diep</p>
+          <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
+          <p><span class="font-weight-bold">Email: </span> ddkotan@gmail.com</p>
+          <p class="pb-5"><span class="font-weight-bold">Phone: </span> (714) 890-2704</p>
+        </div>
+        <div class="m-3">
+          <p>
+            Since I can remember, I've always been on the internet. From browsing various GeoCities sites and playing flash games, I
+            went on to graduate with Computer Science degree from UCI. From then on, I gained an interest in online fiction and
+            spent a few years doing some script programming as I worked as a translator for web fiction, reminding me of my passion
+            for programming.
+          </p>
+          <p>
+            Feeling a bit rusty, I decided I needed review to get my skills up to speed and set my mind on attend a coding
+            bootcamp named Learningfuze. While I was there, I went through twelve weeks of rigorous coursework, practicing strict
+            git control, making several apps, and regaining my confideence.
+          </p>
+          <p>
+            I'm now a full stack developer in the Orange County area and looking for opportunities to prove myself.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="apps" class="slate-bg full-screen-apps">
+    <h1 class="ml-5 title-text">Applications Built</h1>
+    <div class="container mt-3">
+      <div class="project grey-bg">
+        <h3 class="p-3">Movify</h3>
+      </div>
+
+      <div class="project smoke-bg mt-3">
+
+      </div>
+
+      <div class="project grey-bg mt-3">
+
+      </div>
+    </div>
+  </div>
 
   <div id="root"></div>
 
 
-  <script src="main.js"></script>
+
+  <script>
+
+    var timedSecond=setInterval(writeSecondHeader,2000);
+
+    function writeSecondHeader(){
+      const secondHeader=document.createElement("h2");
+      secondHeader.className="text-right m-auto white-cursor";
+      secondHeader.textContent= "Welcome to my Website!";
+      document.getElementById("write").appendChild(secondHeader);
+      document.getElementById("first").classList.remove("white-cursor");
+      clearInterval(timedSecond);
+    }
+  </script>
 </body>
 
 </html>
