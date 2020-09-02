@@ -75,7 +75,13 @@ border-right: .1em solid white;
 @media only screen and (max-width: 600px) {
   .full-screen{
   width:100%;
-  height:161vh;
+  height:163vh;
+}
+.col-4{
+  width:80%;
+}
+.skills-show{
+  height:140vh;
 }
 .full-screen-apps{
   width:100%;
@@ -94,7 +100,7 @@ border-right: .1em solid white;
   display:inline;
   flex-direction: row;
 }
-.navbar{
-  justify-content:none!important;
+.title-text{
+  padding-top:13%;
 }
 }
