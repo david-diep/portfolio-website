@@ -16,6 +16,9 @@ body{
 .logo{
   max-height:25px;
 }
+.contact-me{
+  height:40vh;
+}
 .slate-bg{
   background-color:slategray;
 }
@@ -73,6 +76,12 @@ border-right: .1em solid white;
 }
 .full-screen-apps{
   width:100%;
-  height:250vh;
+  height:180vh;
+}
+.w-65{
+  width:50%;
+}
+.contact-me{
+  height:50vh;
 }
 }

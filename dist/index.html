@@ -132,14 +132,15 @@
 
   </div>
 
-  <div id="contact" class="grey-bg project">
+  <div id="contact" class="grey-bg contact-me">
     <div class="container">
 
-      <h1 class="title-text">Contact Me</h1>
+      <h1 class="pt-3"><u>Contact Me</u></h1>
+      <h3>Thank you for visiting!</h3>
+        <div class="bg-white p-3">
 
-        <div class="bg-white p-3 w-50">
-          <p><span class="font-weight-bold">Name: </span> David Diep</p>
-          <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
+          <p> David Diep</p>
+          <p> Full Stack Web Developer</p>
           <p><span class="font-weight-bold">Email: </span> <a href="mailto: ddkotan@gmail.com">ddkotan@gmail.com</a></p>
           <p><span class="font-weight-bold">Phone: </span> <a href="tel:714-890-2704">(714) 890-2704</a></p>
           <a class="btn btn-outline-dark mb-1" href="https://github.com/david-diep/" target="_blank" role="button">GitHub <img
@@ -152,23 +153,7 @@
 
   </div>
 
-  <div id="root"></div>
-
-
-
-  <script>
-
-    var timedSecond=setInterval(writeSecondHeader,2000);
-
-    function writeSecondHeader(){
-      const secondHeader=document.createElement("h2");
-      secondHeader.className="text-right m-auto white-cursor";
-      secondHeader.textContent= "Welcome to my Website!";
-      document.getElementById("write").appendChild(secondHeader);
-      document.getElementById("first").classList.remove("white-cursor");
-      clearInterval(timedSecond);
-    }
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
