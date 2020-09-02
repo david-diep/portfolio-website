@@ -29,24 +29,28 @@
     </div>
   </nav>
 
-  <div class="full-screen slate-bg d-flex justify-content-center align-items-center" id="home">
+  <div class="front-screen slate-bg d-flex justify-content-center align-items-center" id="home">
     <div class="typewriter" id="write">
       <h1 class="white-cursor" id="first">Hi! My name is David.</h1>
     </div>
   </div>
 
   <div id="about" class="full-screen grey-bg">
-    <h1 class="ml-5 title-text">About Me</h1>
-    <div class="container smoke-bg">
+
+    <div class="container">
+      <h1 class="title-text">About Me</h1>
+      <div class="smoke-bg px-3">
       <div class="row">
         <img class="p-3 self-image" src="images/david-diep.png">
         <div class="d-flex flex-column justify-content-end pl-3">
           <p><span class="font-weight-bold">Name: </span> David Diep</p>
           <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
-          <p><span class="font-weight-bold">Email: </span> ddkotan@gmail.com</p>
-          <p class="pb-5"><span class="font-weight-bold">Phone: </span> (714) 890-2704</p>
+          <p><span class="font-weight-bold">Email: </span> <a href="mailto: ddkotan@gmail.com">ddkotan@gmail.com</a></p>
+          <p><span class="font-weight-bold">Phone: </span> <a href="tel:714-890-2704">(714) 890-2704</a></p>
+          <a class="btn btn-outline-dark mb-1" href="https://github.com/david-diep/" target="_blank" role="button">GitHub <img class="logo" src="images/GitHub-logo.png"></a>
+          <a class="btn btn-outline-primary mb-2" href="https://www.linkedin.com/in/david-diep-dev/" target="_blank" role="button"><span class="align-bottom">Linked</span> <img class="logo" src="images/linkedIn-logo.png"></a>
         </div>
-        <div class="m-3">
+        <div class="p-2">
           <p>
             Since I can remember, I've always been on the internet. From browsing various GeoCities sites and playing flash games, I
             went on to graduate with Computer Science degree from UCI. From then on, I gained an interest in online fiction and
@@ -63,24 +67,89 @@
           </p>
         </div>
       </div>
+      </div>
     </div>
   </div>
 
   <div id="apps" class="slate-bg full-screen-apps">
-    <h1 class="ml-5 title-text">Applications Built</h1>
-    <div class="container mt-3">
+
+    <div class="container pt-2">
+      <h1 class="title-text">Applications Built</h1>
+
       <div class="project grey-bg">
-        <h3 class="p-3">Movify</h3>
+        <div class="row h-100">
+          <div class="column px-3 w-65">
+            <h3 class="px-3 pt-3 mb-0"><u>Movify</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/movify">Github</a> | <a href="http://movify.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Movify is a full-stack dynamic web application for movie enthusiasts who want to journal, track and categorize their movie interests.</p>
+          </div>
+          <img class="project-img p-2" src="./images/movify.png">
+        </div>
       </div>
 
       <div class="project smoke-bg mt-3">
-
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Simple Kanban</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/kanban-hackathon">Github</a> | <a
+                href="https://david-diep.github.io/kanban-hackathon/">Live</a></p>
+            <p class="px-3 py-1">Simple Kanban is a front-end web application for planning and organizing tasks.</p>
+          </div>
+          <img class="project-img p-2" src="./images/kanban.png">
+        </div>
       </div>
 
-      <div class="project grey-bg mt-3">
-
+      <div class="project bg-info mt-3">
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Wicked Sales</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/wicked-sales-js">Github</a> | <a
+                href="http://wicked-sales.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Wicked Sales is a storefront application that simulates a typical online store.</p>
+          </div>
+          <img class="project-img p-2" src="./images/wicked-sales.png">
+        </div>
       </div>
+
+      <div class="project smoke-bg mt-3">
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Meme Generator</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/api-hackathon">Github</a> | <a
+                href="http://meme.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Meme Generator is a static application that allows for the creation and customization of memes.</p>
+          </div>
+          <img class="project-img p-2" src="./images/meme-gen.png">
+        </div>
+      </div>
+
+  </div>
+</div>
+  <div id="skills" class="smoke-bg full-screen">
+    <div class="container">
+      <h1 class="title-text">Skills</h1>
     </div>
+
+  </div>
+
+  <div id="contact" class="grey-bg project">
+    <div class="container">
+
+      <h1 class="title-text">Contact Me</h1>
+
+        <div class="bg-white p-3 w-50">
+          <p><span class="font-weight-bold">Name: </span> David Diep</p>
+          <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
+          <p><span class="font-weight-bold">Email: </span> <a href="mailto: ddkotan@gmail.com">ddkotan@gmail.com</a></p>
+          <p><span class="font-weight-bold">Phone: </span> <a href="tel:714-890-2704">(714) 890-2704</a></p>
+          <a class="btn btn-outline-dark mb-1" href="https://github.com/david-diep/" target="_blank" role="button">GitHub <img
+              class="logo" src="images/GitHub-logo.png"></a>
+          <a class="btn btn-outline-primary mb-2" href="https://www.linkedin.com/in/david-diep-dev/" target="_blank"
+            role="button"><span class="align-bottom">Linked</span> <img class="logo" src="images/linkedIn-logo.png"></a>
+        </div>
+
+    </div>
+
   </div>
 
   <div id="root"></div>
