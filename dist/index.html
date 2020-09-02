@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Diep</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">David Diep</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#apps">Apps</a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link" href="#contact">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="front-screen slate-bg d-flex justify-content-center align-items-center" id="home">
+    <div class="typewriter" id="write">
+      <h1 class="white-cursor" id="first">Hi! My name is David.</h1>
+    </div>
+  </div>
+
+  <div id="about" class="full-screen grey-bg">
+
+    <div class="container">
+      <h1 class="title-text">About Me</h1>
+      <div class="smoke-bg px-3">
+      <div class="row">
+        <img class="p-3 self-image" src="images/david-diep.png">
+        <div class="d-flex flex-column justify-content-end pl-3">
+          <p><span class="font-weight-bold">Name: </span> David Diep</p>
+          <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
+          <p><span class="font-weight-bold">Email: </span> <a href="mailto: ddkotan@gmail.com">ddkotan@gmail.com</a></p>
+          <p><span class="font-weight-bold">Phone: </span> <a href="tel:714-890-2704">(714) 890-2704</a></p>
+          <a class="btn btn-outline-dark mb-1" href="https://github.com/david-diep/" target="_blank" role="button">GitHub <img class="logo" src="images/GitHub-logo.png"></a>
+          <a class="btn btn-outline-primary mb-2" href="https://www.linkedin.com/in/david-diep-dev/" target="_blank" role="button"><span class="align-bottom">Linked</span> <img class="logo" src="images/linkedIn-logo.png"></a>
+        </div>
+        <div class="p-2">
+          <p>
+            Since I can remember, I've always been on the internet. From browsing various GeoCities sites and playing flash games, I
+            went on to graduate with Computer Science degree from UCI. From then on, I gained an interest in online fiction and
+            spent a few years doing some script programming as I worked as a translator for web fiction, reminding me of my passion
+            for programming.
+          </p>
+          <p>
+            Feeling a bit rusty, I decided I needed review to get my skills up to speed and set my mind on attend a coding
+            bootcamp named Learningfuze. While I was there, I went through twelve weeks of rigorous coursework, practicing strict
+            git control, making several apps, and regaining my confideence.
+          </p>
+          <p>
+            I'm now a full stack developer in the Orange County area and looking for opportunities to prove myself.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="apps" class="slate-bg full-screen-apps">
+
+    <div class="container pt-2">
+      <h1 class="title-text">Applications Built</h1>
+
+      <div class="project grey-bg">
+        <div class="row h-100">
+          <div class="column px-3 w-65">
+            <h3 class="px-3 pt-3 mb-0"><u>Movify</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/movify">Github</a> | <a href="http://movify.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Movify is a full-stack dynamic web application for movie enthusiasts who want to journal, track and categorize their movie interests.</p>
+          </div>
+          <img class="project-img p-2" src="./images/movify.png">
+        </div>
+      </div>
+
+      <div class="project smoke-bg mt-3">
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Simple Kanban</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/kanban-hackathon">Github</a> | <a
+                href="https://david-diep.github.io/kanban-hackathon/">Live</a></p>
+            <p class="px-3 py-1">Simple Kanban is a front-end web application for planning and organizing tasks.</p>
+          </div>
+          <img class="project-img p-2" src="./images/kanban.png">
+        </div>
+      </div>
+
+      <div class="project bg-info mt-3">
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Wicked Sales</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/wicked-sales-js">Github</a> | <a
+                href="http://wicked-sales.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Wicked Sales is a storefront application that simulates a typical online store.</p>
+          </div>
+          <img class="project-img p-2" src="./images/wicked-sales.png">
+        </div>
+      </div>
+
+      <div class="project smoke-bg mt-3">
+        <div class="row h-100">
+          <div class="column px-3 w-50">
+            <h3 class="px-3 pt-3 mb-0"><u>Meme Generator</u></h3>
+            <p class="px-3 py-1 mb-0"><a href="https://github.com/david-diep/api-hackathon">Github</a> | <a
+                href="http://meme.david-diep.com/">Live</a></p>
+            <p class="px-3 py-1">Meme Generator is a static application that allows for the creation and customization of memes.</p>
+          </div>
+          <img class="project-img p-2" src="./images/meme-gen.png">
+        </div>
+      </div>
+
+  </div>
+</div>
+  <div id="skills" class="smoke-bg full-screen">
+    <div class="container">
+      <h1 class="title-text">Skills</h1>
+    </div>
+
+  </div>
+
+  <div id="contact" class="grey-bg project">
+    <div class="container">
+
+      <h1 class="title-text">Contact Me</h1>
+
+        <div class="bg-white p-3 w-50">
+          <p><span class="font-weight-bold">Name: </span> David Diep</p>
+          <p><span class="font-weight-bold">Title: </span> Full Stack Web Developer</p>
+          <p><span class="font-weight-bold">Email: </span> <a href="mailto: ddkotan@gmail.com">ddkotan@gmail.com</a></p>
+          <p><span class="font-weight-bold">Phone: </span> <a href="tel:714-890-2704">(714) 890-2704</a></p>
+          <a class="btn btn-outline-dark mb-1" href="https://github.com/david-diep/" target="_blank" role="button">GitHub <img
+              class="logo" src="images/GitHub-logo.png"></a>
+          <a class="btn btn-outline-primary mb-2" href="https://www.linkedin.com/in/david-diep-dev/" target="_blank"
+            role="button"><span class="align-bottom">Linked</span> <img class="logo" src="images/linkedIn-logo.png"></a>
+        </div>
+
+    </div>
+
+  </div>
+
+  <div id="root"></div>
+
+
+
+  <script>
+
+    var timedSecond=setInterval(writeSecondHeader,2000);
+
+    function writeSecondHeader(){
+      const secondHeader=document.createElement("h2");
+      secondHeader.className="text-right m-auto white-cursor";
+      secondHeader.textContent= "Welcome to my Website!";
+      document.getElementById("write").appendChild(secondHeader);
+      document.getElementById("first").classList.remove("white-cursor");
+      clearInterval(timedSecond);
+    }
+  </script>
+</body>
+
+</html>
