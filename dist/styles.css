@@ -25,7 +25,7 @@ body{
 .project-img{
   object-fit:contain;
   max-height:39vh;
-  max-width:340px;
+  max-width:49%;
 }
 .smoke-bg{
   background-color:whitesmoke;
