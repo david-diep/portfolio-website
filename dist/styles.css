@@ -13,8 +13,14 @@ body{
   width:100%;
   height:40vh;
 }
+.skills-show{
+  height:80vh;
+}
 .logo{
   max-height:25px;
+}
+.contact-me{
+  height:40vh;
 }
 .slate-bg{
   background-color:slategray;
@@ -69,10 +75,32 @@ border-right: .1em solid white;
 @media only screen and (max-width: 600px) {
   .full-screen{
   width:100%;
-  height:161vh;
+  height:163vh;
+}
+.col-4{
+  width:80%;
+}
+.skills-show{
+  height:140vh;
 }
 .full-screen-apps{
   width:100%;
-  height:250vh;
+  height:180vh;
+}
+.w-65{
+  width:50%;
+}
+.contact-me{
+  height:50vh;
+}
+.navbar-nav li{
+  display:inline!important;
+}
+.navbar-nav{
+  display:inline;
+  flex-direction: row;
+}
+.title-text{
+  padding-top:13%;
 }
 }
