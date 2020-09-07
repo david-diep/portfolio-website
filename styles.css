@@ -25,7 +25,7 @@ body{
   max-height:25px;
 }
 .contact-me{
-  height:40vh;
+  height:45vh;
 }
 .slate-bg{
   background-color:slategray;
@@ -106,5 +106,16 @@ border-right: .1em solid white;
 }
 .title-text{
   padding-top:13%;
+}
+}
+@media only screen and (min-width: 601px) and (max-width:800px) {
+#about{
+  height:120vh;
+}
+.skills-show{
+  height:100vh;
+}
+.contact-me{
+  height:40vh;
 }
 }
