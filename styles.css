@@ -1,5 +1,10 @@
 body{
   font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgba(225, 255, 255, 0.5), rgba(225, 255, 255, 0.7)), url("./images/tech-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .full-screen, .front-screen{
   width:100%;
@@ -14,7 +19,7 @@ body{
   height:40vh;
 }
 .skills-show{
-  height:80vh;
+  height:100vh;
 }
 .logo{
   max-height:25px;
@@ -40,7 +45,6 @@ body{
   background-color:lightgrey;
 }
 .title-text{
-  padding-top:5%;
   text-decoration:underline;
 }
 .self-image{
